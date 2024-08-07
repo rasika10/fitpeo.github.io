@@ -36,12 +36,13 @@
 .CircularProgressbar-trail {
   stroke: #293265;
 }
-.CircularProgressbar-text {
-  fill: yellow;
-}
-.CircularProgressbar-background {
-  fill: green;
-}
+
 canvas {
   width: 95% !important;
+}
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: #7394ff;
+}
+.CircularProgressbar .CircularProgressbar-text {
+  fill: #7394ff;
 }

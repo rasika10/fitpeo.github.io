@@ -169,7 +169,7 @@ export default function Dashboard() {
               style={{
                 backgroundColor: "#f5f5f5",
                 color: "#757575",
-                marginRight: "8px",
+                marginRight: "12px",
               }}
             >
               <MailOutlineOutlinedIcon fontSize="small" />
@@ -179,16 +179,20 @@ export default function Dashboard() {
               style={{
                 backgroundColor: "#f5f5f5",
                 color: "#757575",
-                marginRight: "8px",
+                marginRight: "12px",
               }}
             >
               <SettingsOutlinedIcon fontSize="small" />
             </IconButton>
             <IconButton
               size="medium"
-              style={{ backgroundColor: "#f5f5f5", color: "#757575" }}
+              style={{
+                backgroundColor: "#f5f5f5",
+                color: "#757575",
+                marginRight: "12px",
+              }}
             >
-              <Badge color="secondary">
+              <Badge color="primary" variant="dot">
                 <NotificationsNoneIcon fontSize="small" />
               </Badge>
             </IconButton>
