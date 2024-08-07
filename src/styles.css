@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+}
+.TotalCalculation {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.count {
+  width: 65%;
+  font-weight: 700 !important;
+  padding: 5px;
+}
+
+.percent {
+  align-self: center;
+  color: #257261;
+  font-weight: bold;
+  display: flex;
+}
+
+.upArrow {
+  vertical-align: bottom;
+  color: #257261;
+}
+
+.downArrow {
+  vertical-align: bottom;
+  color: #812b32;
+}
+
+.CircularProgressbar-path {
+  stroke: #7394ff;
+}
+.CircularProgressbar-trail {
+  stroke: #293265;
+}
+.CircularProgressbar-text {
+  fill: yellow;
+}
+.CircularProgressbar-background {
+  fill: green;
+}
+canvas {
+  width: 95% !important;
+}
