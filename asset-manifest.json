@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/fitpeo.github.io/static/css/main.9f292515.css",
+    "main.js": "/fitpeo.github.io/static/js/main.a7730aa9.js",
+    "static/media/profile33.jpg": "/fitpeo.github.io/static/media/profile33.06e121a493afd387679a.jpg",
+    "static/media/profile55.jpg": "/fitpeo.github.io/static/media/profile55.de010994b6136d54ad62.jpg",
+    "static/media/profile66.jpg": "/fitpeo.github.io/static/media/profile66.076c9a520cfea90b9753.jpg",
+    "static/media/profile11.jpg": "/fitpeo.github.io/static/media/profile11.029b7752f35e54cabd6a.jpg",
+    "static/media/profile22.jpg": "/fitpeo.github.io/static/media/profile22.e53051acba95b573f912.jpg",
+    "index.html": "/fitpeo.github.io/index.html",
+    "main.9f292515.css.map": "/fitpeo.github.io/static/css/main.9f292515.css.map",
+    "main.a7730aa9.js.map": "/fitpeo.github.io/static/js/main.a7730aa9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f292515.css",
+    "static/js/main.a7730aa9.js"
+  ]
+}
