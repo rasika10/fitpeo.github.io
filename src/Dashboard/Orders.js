@@ -1,20 +1,16 @@
 import * as React from "react";
-import Link from "@mui/material/Link";
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
 import TableCell from "@mui/material/TableCell";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
-import Title from "./Title";
 import Box from "@mui/material/Box";
 import { Avatar, Typography } from "@mui/material";
 import profile1 from "./Images/profile11.jpg";
 import profile2 from "./Images/profile22.jpg";
 import profile3 from "./Images/profile33.jpg";
-import profile4 from "./Images/profile44.jpg";
 import profile5 from "./Images/profile55.jpg";
 import profile6 from "./Images/profile66.jpg";
-import profile7 from "./Images/profile77.jpg";
 // Generate Order Data
 function createData(id, imgSrc, customer, orderno, amount, status) {
   return { id, imgSrc, customer, orderno, amount, status };
@@ -68,7 +64,7 @@ export default function Orders() {
                 </TableCell>
                 <TableCell>{row.orderno}</TableCell>
                 <TableCell>{row.amount}</TableCell>
-                <TableCell>{row.status}</TableCell>
+                <TableCell><Typography sx={{fontSize:"14px", color:"white", backgroundColor:"#4DB6AC", borderRadius:"25px", padding:"4px 15px", width:"94px"}}>{row.status}</Typography></TableCell>
               </TableRow>
             ))}
           </TableBody>
